@@ -195,9 +195,6 @@ class Inline:
                 self.ikb(text=lang["support"], url=config.SUPPORT_CHAT, style=ButtonStyle.PRIMARY),
                 self.ikb(text=lang["channel"], url=config.SUPPORT_CHANNEL, style=ButtonStyle.PRIMARY),
             ],
-            [
-                self.ikb(text="YouTube", url="https://youtube.com/@artistbots", style=ButtonStyle.DANGER),
-            ],
         ]
         return self.ikm(rows)
 
