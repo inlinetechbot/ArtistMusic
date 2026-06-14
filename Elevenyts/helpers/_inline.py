@@ -192,34 +192,34 @@ class Inline:
         ]
         return self.ikm(rows)
 
-    def info_markup(self) -> types.InlineKeyboardMarkup:
-        """Info submenu — Owner, Ask Me, Developer, Back, Close"""
-        rows = [
-            [
-                self.ikb(
-                    text="ᴏᴡɴᴇʀ",
-                    url=f"https://t.me/{config.OWNER_USERNAME}",
-                    style=ButtonStyle.PRIMARY,
-                ),
-                self.ikb(
-                    text="ᴀꜱᴋ ᴍᴇ",
-                    url=config.SUPPORT_CHAT,
-                    style=ButtonStyle.SUCCESS,
-                ),
-            ],
-            [
-                self.ikb(
-                    text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
-                    url="https://t.me/elevenyts",
-                    style=ButtonStyle.PRIMARY,
-                ),
-            ],
-            [
-                self.ikb(text="ʙᴀᴄᴋ", callback_data="start", style=ButtonStyle.SUCCESS),
-                self.ikb(text="ᴄʟᴏꜱᴇ", callback_data="info_close", style=ButtonStyle.DANGER),
-            ],
-        ]
-        return self.ikm(rows)
+def info_markup(self) -> types.InlineKeyboardMarkup:
+    """Info submenu — Owner, Ask Me, Developer, Back, Close"""
+    rows = [
+        [
+            self.ikb(
+                text="ᴏᴡɴᴇʀ",
+                url="https://t.me/Prexep",
+                style=ButtonStyle.PRIMARY,
+            ),
+            self.ikb(
+                text="ᴀꜱᴋ ᴍᴇ",
+                url="https://t.me/Tg_Crush",
+                style=ButtonStyle.SUCCESS,
+            ),
+        ],
+        [
+            self.ikb(
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+                url="https://t.me/Terminal_Vibes",
+                style=ButtonStyle.PRIMARY,
+            ),
+        ],
+        [
+            self.ikb(text="ʙᴀᴄᴋ", callback_data="start", style=ButtonStyle.SUCCESS),
+            self.ikb(text="ᴄʟᴏꜱᴇ", callback_data="info_close", style=ButtonStyle.DANGER),
+        ],
+    ]
+    return self.ikm(rows)
 
     def yt_key(self, link: str) -> types.InlineKeyboardMarkup:
         return self.ikm(
