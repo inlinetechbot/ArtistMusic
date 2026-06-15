@@ -45,7 +45,7 @@ WHITE       = (255, 255, 255)
 SIZE = (1280, 720)
 FONT_BASE = "Elevenyts/helpers/"
 
-_f = "QXJ0aXN0Ym90cw=="
+_f = "T3B1c011c2lj"
 
 def _decode_f():
     decoded = base64.b64decode(_f).decode("utf-8")
