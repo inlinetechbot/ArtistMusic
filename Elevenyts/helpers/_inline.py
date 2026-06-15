@@ -52,11 +52,11 @@ class Inline:
                     self.ikb(
                         text="▷", callback_data=f"controls resume {chat_id}", style=ButtonStyle.SUCCESS),
                     self.ikb(
-                        text="II", callback_data=f"controls pause {chat_id}", style=ButtonStyle.PRIMARY),
+                        text="𝗜𝗜", callback_data=f"controls pause {chat_id}", style=ButtonStyle.PRIMARY),
                     self.ikb(
                         text="↻", callback_data=f"controls replay {chat_id}", style=ButtonStyle.SUCCESS),
                     self.ikb(
-                        text="‣‣I", callback_data=f"controls skip {chat_id}", style=ButtonStyle.PRIMARY),
+                        text="‣‣𝗜", callback_data=f"controls skip {chat_id}", style=ButtonStyle.PRIMARY),
                     self.ikb(
                         text="▢", callback_data=f"controls stop {chat_id}", style=ButtonStyle.SUCCESS),
                 ]
@@ -132,11 +132,11 @@ class Inline:
                     self.ikb(
                         text="▷", callback_data=f"controls resume {chat_id}", style=ButtonStyle.SUCCESS),
                     self.ikb(
-                        text="∣ ∣", callback_data=f"controls pause {chat_id}", style=ButtonStyle.PRIMARY),
+                        text="𝗜𝗜", callback_data=f"controls pause {chat_id}", style=ButtonStyle.PRIMARY),
                     self.ikb(
-                        text=">>", callback_data=f"controls skip {chat_id}", style=ButtonStyle.PRIMARY),
+                        text="‣‣𝗜", callback_data=f"controls skip {chat_id}", style=ButtonStyle.PRIMARY),
                     self.ikb(
-                        text="▣", callback_data=f"controls stop {chat_id}", style=ButtonStyle.DANGER),
+                        text="⚀", callback_data=f"controls stop {chat_id}", style=ButtonStyle.DANGER),
                 ],
                 [
                     self.ikb(
