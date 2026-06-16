@@ -183,15 +183,16 @@ class Inline:
             ],
             [
                 self.ikb(text=lang["help"], callback_data="help", style=ButtonStyle.SUCCESS),
-                self.ikb(text="𝐈𝗇𝖿𝗈...🗣️", callback_data="info_menu", style=ButtonStyle.SUCCESS),
             ],
             [
                 self.ikb(text=lang["support"], url=config.SUPPORT_CHAT, style=ButtonStyle.PRIMARY),
                 self.ikb(text=lang["channel"], url=config.SUPPORT_CHANNEL, style=ButtonStyle.PRIMARY),
             ],
+            [
+                self.ikb(text="𝐈𝗇𝖿𝗈...🗣️", callback_data="info_menu", style=ButtonStyle.SUCCESS),
+            ],
         ]
         return self.ikm(rows)
-
 
     def info_markup(self) -> types.InlineKeyboardMarkup:
         """Info submenu — Owner, Ask Me, Developer, Back, Close"""
@@ -222,7 +223,6 @@ class Inline:
         ]
         return self.ikm(rows)
 
-
     def yt_key(self, link: str) -> types.InlineKeyboardMarkup:
         return self.ikm(
             [
@@ -231,4 +231,4 @@ class Inline:
                     self.ikb(text="ᴏᴘᴇɴ ɪɴ ʏᴏᴜᴛᴜʙᴇ", url=link, style=ButtonStyle.PRIMARY),
                 ],
             ]
-              )
+        )
