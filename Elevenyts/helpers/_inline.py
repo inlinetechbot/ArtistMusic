@@ -64,7 +64,7 @@ class Inline:
             keyboard.append(
                 [
                     self.ikb(
-                        text="ᴅᴇʟᴇᴛᴇ", callback_data=f"controls close {chat_id}", style=ButtonStyle.DANGER),
+                        text="𝐃𝖾𝗅𝖾𝗍𝖾 🗑️", callback_data=f"controls close {chat_id}", style=ButtonStyle.DANGER),
                 ]
             )
         return self.ikm(keyboard)
@@ -115,11 +115,11 @@ class Inline:
     def ping_markup(self, text: str) -> types.InlineKeyboardMarkup:
         return self.ikm([
             [
-                self.ikb(text="📢 Channel", url=config.SUPPORT_CHANNEL, style=ButtonStyle.SUCCESS),
-                self.ikb(text="🆘 Support", url=config.SUPPORT_CHAT, style=ButtonStyle.SUCCESS),
+                self.ikb(text="𝐔𝗉𝖽𝖺𝗍𝖾 📢", url=config.SUPPORT_CHANNEL, style=ButtonStyle.SUCCESS),
+                self.ikb(text="𝐒𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=config.SUPPORT_CHAT, style=ButtonStyle.SUCCESS),
             ],
             [
-                self.ikb(text="➕ Add Me to Your Group", url=f"https://t.me/{app.username}?startgroup=true", style=ButtonStyle.PRIMARY),
+                self.ikb(text="𝐖𝖺𝗇𝗇𝖺 𝐓𝗋𝗒 𝐌𝖾 ✛", url=f"https://t.me/{app.username}?startgroup=true", style=ButtonStyle.PRIMARY),
             ]
         ])
 
@@ -140,7 +140,7 @@ class Inline:
                 ],
                 [
                     self.ikb(
-                        text="ᴅᴇʟᴇᴛᴇ", callback_data=f"controls close {chat_id}", style=ButtonStyle.DANGER),
+                        text="𝐃𝖾𝗅𝖾𝗍𝖾 🗑️", callback_data=f"controls close {chat_id}", style=ButtonStyle.DANGER),
                 ]
             ]
         )
@@ -198,25 +198,25 @@ class Inline:
         rows = [
             [
                 self.ikb(
-                    text="ᴏᴡɴᴇʀ",
+                    text="𝐎𝗐𝗇𝖾𝗋 🎭",
                     url="https://t.me/Prexep",
                     style=ButtonStyle.PRIMARY,
                 ),
                 self.ikb(
-                    text="ᴀꜱᴋ ᴍᴇ",
+                    text="𝐀𝗌𝗄 𝐌𝖾 💬",
                     url="https://t.me/Tg_Crush",
                     style=ButtonStyle.SUCCESS,
                 ),
             ],
             [
                 self.ikb(
-                    text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+                    text="𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 💻",
                     url="https://t.me/Terminal_Vibes",
                     style=ButtonStyle.PRIMARY,
                 ),
             ],
             [
-                self.ikb(text="ʙᴀᴄᴋ", callback_data="start", style=ButtonStyle.SUCCESS),
+                self.ikb(text="⇱ 𝐁𝖺𝖼𝗄", callback_data="start", style=ButtonStyle.SUCCESS),
                 self.ikb(text="ᴄʟᴏꜱᴇ", callback_data="info_close", style=ButtonStyle.DANGER),
             ],
         ]
