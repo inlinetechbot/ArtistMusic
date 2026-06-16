@@ -178,18 +178,18 @@ class Inline:
                 self.ikb(
                     text=lang["add_me"],
                     url=f"https://t.me/{app.username}?startgroup=true",
-                    style=ButtonStyle.PRIMARY,
+                    style=ButtonStyle.SUCCESS,
                 )
             ],
             [
-                self.ikb(text=lang["help"], callback_data="help", style=ButtonStyle.SUCCESS),
+                self.ikb(text=lang["help"], callback_data="help", style=ButtonStyle.PRIMARY),
             ],
             [
-                self.ikb(text=lang["support"], url=config.SUPPORT_CHAT, style=ButtonStyle.PRIMARY),
-                self.ikb(text=lang["channel"], url=config.SUPPORT_CHANNEL, style=ButtonStyle.PRIMARY),
+                self.ikb(text=lang["support"], url=config.SUPPORT_CHAT, style=ButtonStyle.SUCCESS),
+                self.ikb(text=lang["channel"], url=config.SUPPORT_CHANNEL, style=ButtonStyle.DANGER),
             ],
             [
-                self.ikb(text="𝐈𝗇𝖿𝗈...🗣️", callback_data="info_menu", style=ButtonStyle.SUCCESS),
+                self.ikb(text="𝐈𝗇𝖿𝗈...🗣️", callback_data="info_menu", style=ButtonStyle.PRIMARY),
             ],
         ]
         return self.ikm(rows)
