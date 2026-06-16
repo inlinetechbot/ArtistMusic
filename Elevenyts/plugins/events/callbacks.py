@@ -448,7 +448,7 @@ async def _info_menu(_, query: types.CallbackQuery):
     await query.answer()
     try:
         await query.edit_message_caption(
-            caption=query.lang.get("info_menu", " <b>𝐒𝗁𝗈𝗐𝗌 𝐃𝖾𝗍𝖺𝗂𝗅𝗌 𝐀𝗇𝖽 𝐇𝖾𝗅𝗉𝖿𝗎𝗅 𝐈𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝐀𝖻𝗈𝗎𝗍 𝐓𝗁𝗂𝗌 𝐎𝗉𝗍𝗂𝗈𝗇𝗌.</b>"),
+            caption=query.lang.get("info_menu", " <b>𝙄𝙣𝙛𝙤𝙈𝙚𝙣𝙪 \n\n𝐒𝗁𝗈𝗐𝗌 𝐃𝖾𝗍𝖺𝗂𝗅𝗌 𝐀𝗇𝖽 𝐇𝖾𝗅𝗉𝖿𝗎𝗅 𝐈𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝐀𝖻𝗈𝗎𝗍 𝐓𝗁𝗂𝗌 𝐎𝗉𝗍𝗂𝗈𝗇𝗌.</b>"),
             reply_markup=buttons.info_markup(),
         )
     except Exception:
