@@ -183,7 +183,7 @@ class Inline:
             ],
             [
                 self.ikb(text=lang["help"], callback_data="help", style=ButtonStyle.SUCCESS),
-                self.ikb(text="ɪɴꜰᴏ", callback_data="info_menu", style=ButtonStyle.SUCCESS),
+                self.ikb(text="𝐈𝗇𝖿𝗈...🗣️", callback_data="info_menu", style=ButtonStyle.SUCCESS),
             ],
             [
                 self.ikb(text=lang["support"], url=config.SUPPORT_CHAT, style=ButtonStyle.PRIMARY),
