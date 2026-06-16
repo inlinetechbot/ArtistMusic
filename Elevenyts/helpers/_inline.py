@@ -217,7 +217,7 @@ class Inline:
             ],
             [
                 self.ikb(text="⇱ 𝐁𝖺𝖼𝗄", callback_data="start", style=ButtonStyle.SUCCESS),
-                self.ikb(text="ᴄʟᴏꜱᴇ", callback_data="info_close", style=ButtonStyle.DANGER),
+                self.ikb(text="✖ 𝐂𝗅𝗈𝗌𝖾", callback_data="info_close", style=ButtonStyle.DANGER),
             ],
         ]
         return self.ikm(rows)
