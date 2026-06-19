@@ -56,15 +56,15 @@ async def new_chat_member(_, message: types.Message):
             except Exception:
                 chat_link = "❌ ᴜɴᴀʙʟᴇ ᴛᴏ ɢᴇᴛ ʟɪɴᴋ"
 
-            text = f"""<blockquote>🟢 <b>˹Opus ꭙ Music˼ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ</b></blockquote>
+            text = f"""<blockquote>🟢 <b>𝐎𝗉𝗎𝗌𝐌𝗎𝗌𝗂𝖼 𝐀𝖽𝖽𝖾𝖽 𝐈𝗇 𝐀 𝐍𝖾𝗐 𝐆𝗋𝗈𝗎𝗉</b></blockquote>
 
 <blockquote>
-🔖 <b>ᴄʜᴀᴛ ɴᴀᴍᴇ:</b> {chat_name}
-🆔 <b>ᴄʜᴀᴛ ɪᴅ:</b> <code>{chat_id}</code>
-👤 <b>ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ:</b> {chat_username}
-🔗 <b>ᴄʜᴀᴛ ʟɪɴᴋ:</b> {chat_link}
-👥 <b>ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs:</b> {members_count}
-🤵 <b>ᴀᴅᴅᴇᴅ ʙʏ:</b> {added_by_name}
+🔖 <b>𝐂𝗁𝖺𝗍 𝐍𝖺𝗆𝖾:</b> {chat_name}
+🆔 <b>𝐂𝗁𝖺𝗍 𝐈𝖣:</b> <code>{chat_id}</code>
+👤 <b>𝐂𝗁𝖺𝗍 𝐔𝗌𝖾𝗋𝗇𝖺𝗆𝖾:</b> {chat_username}
+🔗 <b>𝐂𝗁𝖺𝗍 𝐋𝗂𝗇𝗄:</b> {chat_link}
+👥 <b>𝐆𝗋𝗈𝗎𝗉 𝐌𝖾𝗆𝖻𝖾𝗋𝗌:</b> {members_count}
+🤵 <b>𝐀𝖽𝖽𝖾𝖽 𝐁𝗒:</b> {added_by_name}
 </blockquote>
 """
 
@@ -109,14 +109,14 @@ async def left_chat_member(_, message: types.Message):
         except:
             chat_link = "❌ ᴜɴᴀʙʟᴇ ᴛᴏ ɢᴇᴛ ʟɪɴᴋ"
 
-        text = f"""<blockquote>🔴 <b>˹Opus ꭙ Music˼ ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ᴀ ɢʀᴏᴜᴘ</b></blockquote>
+        text = f"""<blockquote><b>𝐎𝗉𝗎𝗌𝐌𝗎𝗌𝗂𝖼 𝐑𝖾𝗆𝗈𝗏𝖾𝖽 𝐅𝗋𝗈𝗆 𝐀 𝐆𝗋𝗈𝗎𝗉</b></blockquote>
 
 <blockquote>
-🔖 <b>ᴄʜᴀᴛ ɴᴀᴍᴇ:</b> {chat_name}
-🆔 <b>ᴄʜᴀᴛ ɪᴅ:</b> <code>{chat_id}</code>
-👤 <b>ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ:</b> {chat_username}
-🔗 <b>ᴄʜᴀᴛ ʟɪɴᴋ:</b> {chat_link}
-🚫 <b>ʀᴇᴍᴏᴠᴇᴅ ʙʏ:</b> {removed_by_name}
+🔖 <b>✤ 𝐂𝗁𝖺𝗍 𝐍𝖺𝗆𝖾:</b> {chat_name}
+🆔 <b>✤ 𝐂𝗁𝖺𝗍 𝐈𝖣:</b> <code>{chat_id}</code>
+👤 <b>✤ 𝐂𝗁𝖺𝗍 𝐔𝗌𝖾𝗋𝗇𝖺𝗆𝖾:</b> {chat_username}
+🔗 <b>✤ 𝐂𝗁𝖺𝗍 𝐋𝗂𝗇𝗄:</b> {chat_link}
+🚫 <b>✤ 𝐑𝖾𝗆𝗈𝗏𝖾𝖽 𝐁𝗒:</b> {removed_by_name}
 </blockquote>
 """
 
