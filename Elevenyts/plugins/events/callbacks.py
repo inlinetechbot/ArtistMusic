@@ -448,7 +448,7 @@ async def _info_menu(_, query: types.CallbackQuery):
     await query.answer()
     try:
         await query.edit_message_caption(
-            caption=query.lang.get("info_menu", " <b>𝙄𝙣𝙛𝙤𝙈𝙚𝙣𝙪 \n\n𝐎𝗉𝗎𝗌𝐌𝗎𝗌𝗂𝖼™ \n 𝐈𝗌 𝐀 𝐏𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝐓𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝐌𝗎𝗌𝗂𝖼 𝐁𝗈𝗍 𝐃𝖾𝗌𝗂𝗀𝗇𝖾𝖽 𝐓𝗈 𝐃𝖾𝗅𝗂𝗏𝖾𝗋 𝐇𝗂𝗀𝗁-𝐐𝗎𝖺𝗅𝗂𝗍𝗒 𝐀𝗎𝖽𝗂𝗈 𝐒𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝐃𝗂𝗋𝖾𝖼𝗍𝗅𝗒 𝐈𝗇 𝐕𝗈𝗂𝖼𝖾 𝐂𝗁𝖺𝗍.\n𝐒𝖾𝗅𝖾𝖼𝗍 𝐀𝗇 𝐎𝗉𝗍𝗂𝗈𝗇 𝐁𝖾𝗅𝗈𝗐 𝐓𝗈 𝐋𝖾𝖺𝗋𝗇 𝐌𝗈𝗋𝖾 𝐀𝖻𝗈𝗎𝗍 𝐓𝗁𝖾 𝐁𝗈𝗍, 𝐎𝗐𝗇𝖾𝗋 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 𝐀𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝐅𝖾𝖺𝗍𝗎𝗋𝖾.</b>"),
+            caption=query.lang.get("info_menu", " <b>𝙄𝙣𝙛𝙤𝙈𝙚𝙣𝙪 \n\n𝐎𝗉𝗎𝗌𝐌𝗎𝗌𝗂𝖼™ \n <blockquote> 𝐈𝗌 𝐀 𝐏𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝐓𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝐌𝗎𝗌𝗂𝖼 𝐁𝗈𝗍 𝐃𝖾𝗌𝗂𝗀𝗇𝖾𝖽 𝐓𝗈 𝐃𝖾𝗅𝗂𝗏𝖾𝗋 𝐇𝗂𝗀𝗁-𝐐𝗎𝖺𝗅𝗂𝗍𝗒 𝐀𝗎𝖽𝗂𝗈 𝐒𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝐃𝗂𝗋𝖾𝖼𝗍𝗅𝗒 𝐈𝗇 𝐕𝗈𝗂𝖼𝖾 𝐂𝗁𝖺𝗍.</blockquote>\n<blockquote>𝐒𝖾𝗅𝖾𝖼𝗍 𝐀𝗇 𝐎𝗉𝗍𝗂𝗈𝗇 𝐁𝖾𝗅𝗈𝗐 𝐓𝗈 𝐋𝖾𝖺𝗋𝗇 𝐌𝗈𝗋𝖾 𝐀𝖻𝗈𝗎𝗍 𝐓𝗁𝖾 𝐁𝗈𝗍, 𝐎𝗐𝗇𝖾𝗋 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 𝐀𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝐅𝖾𝖺𝗍𝗎𝗋𝖾.</blockquote></b>"),
             reply_markup=buttons.info_markup(),
         )
     except Exception:
