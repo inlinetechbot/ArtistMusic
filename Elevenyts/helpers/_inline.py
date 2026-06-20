@@ -200,7 +200,7 @@ class Inline:
             [
                 self.ikb(
                     text="𝐎𝗐𝗇𝖾𝗋 🎭",
-                    url="https://t.me/Seductive_caffine",
+                    url="https://t.me/Prexep",
                     style=ButtonStyle.PRIMARY,
                 ),
                 self.ikb(
