@@ -490,4 +490,3 @@ class YouTube:
                         link = entity.url
                         break
 
-        i
